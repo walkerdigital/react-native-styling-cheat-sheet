@@ -1,22 +1,5 @@
 # React Native Styling Cheat Sheet
 
-Most of the React Native styling material in one page. Imported from the [official docs](http://facebook.github.io/react-native/docs/getting-started.html).
-
-![YAP](https://media.giphy.com/media/B5a9bkLouElOM/giphy.gif)
-
-## Contents
-
-### General
-- [Flexbox](#flexbox)
-- [ShadowPropTypesIOS](#shadow-prop-types-ios)
-- [Transforms](#transforms)
-
-### Components
-- [Image](#image)
-- [ScrollView](#scrollview)
-- [Text](#text)
-- [View](#view)
-
 ## Flexbox
 | Name | Type | Description | 
 | ---- | ---- | ----------- |
@@ -170,14 +153,3 @@ Most of the React Native styling material in one page. Imported from the [offici
 | opacity | false | [number](#number) | | |
 | overflow | false | [oneOf](#oneof) `visible`, `hidden` | | |
 | elevation | false | [number](#number) | android | (Android-only) Sets the elevation of a view, using Android's underlying [elevation API](https://developer.android.com/training/material/shadows-clipping.html#Elevation). This adds a drop shadow to the item and affects z-order for overlapping views. Only supported on Android 5.0+, has no effect on earlier versions. |
-
-## Appendix
-### Types
-#### [number](#number)
-ReactPropTypes.number
-
-#### [string](#string)
-ReactPropTypes.string
-
-#### [oneOf](#oneof)
-ReactPropTypes.oneOf([values])
